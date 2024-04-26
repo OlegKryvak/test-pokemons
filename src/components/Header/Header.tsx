@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
         dispatch(addPokemon(api.searchedPokemon));
       }
       if (api?.searchedPokemon?.name) {
-        navigate(`/${api.searchedPokemon.name}`);
+        navigate(`/test-pokemons/${api.searchedPokemon.name}`);
       }
       setIsLoading(false);
     };
@@ -53,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
   return (
     <div className={className ? className : styles.header}>
       <div className={styles.logo}>
-        <Link to='/'><img src={logo} alt="logo" /></Link>
+        <Link to='/test-pokemons'><img src={logo} alt="logo" /></Link>
       </div>
       <div className={styles.pages}>
       </div>

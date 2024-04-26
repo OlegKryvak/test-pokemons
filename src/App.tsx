@@ -7,8 +7,8 @@ function App(): JSX.Element {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/:pokemon" element={<PokeInfo />} />
+        <Route path="/test-pokemons" element={<Home />} />
+        <Route path="/test-pokemons/:pokemon" element={<PokeInfo />} />
       </Routes>
     </div>
   );

@@ -59,7 +59,7 @@ export const PokeInfo: React.FC<PokeInfoProps> = ({ className }) => {
                         <div className={styles.header}>
                             <Link
                                 className={styles.backLink}
-                                to='/'
+                                to='/test-pokemons/'
                                 state={{ currentPage: currentPage }}>Go Back</Link>
                             <h4>{lastPokemon.name.toUpperCase()} #{lastPokemon.id}</h4>
                         </div>
@@ -92,7 +92,7 @@ export const PokeInfo: React.FC<PokeInfoProps> = ({ className }) => {
                                 <h3>Types</h3>
                                 <div className={styles.types}>
                                     {lastPokemon.types && lastPokemon.types.map((soloType: PokemonType, index: number) => (
-                                        <Link to={`/?type=${soloType.type.name}`} key={index} className={styles.type}>
+                                        <Link to={`/test-pokemons/?type=${soloType.type.name}`} key={index} className={styles.type}>
                                             <p
                                                 style={{ backgroundColor: TypesColor[soloType.type.name.toLowerCase()], paddingLeft: 10, fontWeight: '800' }}
                                                 key={index}
