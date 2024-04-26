@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test-pokemons/static/css/main.41371219.css",
+    "main.js": "/test-pokemons/static/js/main.46df3571.js",
+    "static/media/pokelogo.png": "/test-pokemons/static/media/pokelogo.83bf9fd6afc94917c62e.png",
+    "static/media/sword.png": "/test-pokemons/static/media/sword.7fa4d6e57e6e9e5212ad.png",
+    "static/media/loupe.png": "/test-pokemons/static/media/loupe.4b29bcbe7ac9902be20a.png",
+    "index.html": "/test-pokemons/index.html",
+    "main.41371219.css.map": "/test-pokemons/static/css/main.41371219.css.map",
+    "main.46df3571.js.map": "/test-pokemons/static/js/main.46df3571.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41371219.css",
+    "static/js/main.46df3571.js"
+  ]
+}
